@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "LeafClient Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://www.omegamc.it"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.omegamc.it"
+
+[ejs.settings]
+sourceGithubLink = "https://www.omegamc.it"
+supportLink = "https://discord.omegamc.it"
+
+[ejs.welcome]
+welcomeHeader = "BENVENUTO/A SU LEAFCLIENT"
+welcomeDescription = ""
+welcomeDescCTA = "Copyright © 2026 OmegaMC Studios"
