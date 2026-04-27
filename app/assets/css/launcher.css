@@ -970,7 +970,7 @@ body, button {
 }
 
 #loginOptionsContent {
-    border-radius: 3px;
+    border-radius: 20px;
     position: relative;
     top: -5%;
 }
@@ -1387,7 +1387,7 @@ input:checked + .toggleSwitchSlider:before {
     height: 5px;
     margin: 15px 0px;
     background: grey;
-    border-radius: 3px;
+    border-radius: 20px;
     position: relative;
 }
 .rangeSliderBar {
@@ -1404,7 +1404,7 @@ input:checked + .toggleSwitchSlider:before {
     width: 7px;
     height: 20px;
     background: white;
-    border-radius: 3px;
+    border-radius: 20px;
     left: 50%;
     cursor: ew-resize;
 }
@@ -1552,7 +1552,7 @@ input:checked + .toggleSwitchSlider:before {
 .settingsAuthAccount {
     display: flex;
     background: rgba(0, 0, 0, 0.25);
-    border-radius: 3px;
+    border-radius: 20px;
     border: 1px solid rgba(126, 126, 126, 0.57);
 }
 
@@ -2137,7 +2137,7 @@ input:checked + .toggleSwitchSlider:before {
     flex-direction: column;
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(126, 126, 126, 0.57);
-    border-radius: 3px;
+    border-radius: 20px;
     width: 75%;
     margin-bottom: 20px;
 }
@@ -2237,7 +2237,7 @@ input:checked + .toggleSwitchSlider:before {
     flex-direction: column;
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(126, 126, 126, 0.57);
-    border-radius: 3px;
+    border-radius: 20px;
     width: 75%;
     margin-bottom: 20px;
 }
@@ -2283,7 +2283,7 @@ input:checked + .toggleSwitchSlider:before {
     font-size: 85%;
     background-color: rgba(255, 255, 255, 0.25);
     color: white;
-    border-radius: 3px;
+    border-radius: 20px;
     font-family: 'Avenir Book';
 }
 .settingsChangelogText li+li {
@@ -2302,7 +2302,7 @@ input:checked + .toggleSwitchSlider:before {
     padding: 0.1em 0.4em;
     font-size: 86%;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 20px;
     color: black;
     font-weight: bold;
 }
@@ -2339,7 +2339,7 @@ input:checked + .toggleSwitchSlider:before {
     flex-direction: column;
     background: rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(126, 126, 126, 0.57);
-    border-radius: 3px;
+    border-radius: 20px;
     width: 75%;
     margin-bottom: 20px;
 }
@@ -3022,6 +3022,11 @@ input:checked + .toggleSwitchSlider:before {
     right: 95px;
     text-align: right;
     -webkit-user-select: initial;
+    border: 1.5px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Social media icon content container. */
@@ -3701,7 +3706,7 @@ input:checked + .toggleSwitchSlider:before {
 .accountListing {
     color: white;
     border: 1px solid rgba(126, 126, 126, 0.57);
-    border-radius: 3px;
+    border-radius: 20px;
     padding: 5px 45px;
     width: 250px;
     display: flex;

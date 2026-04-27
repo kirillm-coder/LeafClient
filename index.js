@@ -265,14 +265,14 @@ function createMenu() {
 
         // Extend default included application menu to continue support for quit keyboard shortcut
         let applicationSubMenu = {
-            label: 'Application',
+            label: 'Applicazione',
             submenu: [{
-                label: 'About Application',
+                label: 'Informazioni sull\'applicazione',
                 selector: 'orderFrontStandardAboutPanel:'
             }, {
                 type: 'separator'
             }, {
-                label: 'Quit',
+                label: 'Esci',
                 accelerator: 'Command+Q',
                 click: () => {
                     app.quit()
@@ -282,31 +282,31 @@ function createMenu() {
 
         // New edit menu adds support for text-editing keyboard shortcuts
         let editSubMenu = {
-            label: 'Edit',
+            label: 'Modifica',
             submenu: [{
-                label: 'Undo',
+                label: 'Disfare',
                 accelerator: 'CmdOrCtrl+Z',
                 selector: 'undo:'
             }, {
-                label: 'Redo',
+                label: 'Rifare',
                 accelerator: 'Shift+CmdOrCtrl+Z',
                 selector: 'redo:'
             }, {
                 type: 'separator'
             }, {
-                label: 'Cut',
+                label: 'Taglio',
                 accelerator: 'CmdOrCtrl+X',
                 selector: 'cut:'
             }, {
-                label: 'Copy',
+                label: 'Copia',
                 accelerator: 'CmdOrCtrl+C',
                 selector: 'copy:'
             }, {
-                label: 'Paste',
+                label: 'Incolla',
                 accelerator: 'CmdOrCtrl+V',
                 selector: 'paste:'
             }, {
-                label: 'Select All',
+                label: 'Seleziona tutto',
                 accelerator: 'CmdOrCtrl+A',
                 selector: 'selectAll:'
             }]
